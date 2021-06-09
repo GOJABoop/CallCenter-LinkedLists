@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="NewAlfredoFinal" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/NewAlfredoFinal" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/NewAlfredoFinal" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="agent.cpp" />
+		<Unit filename="agent.h" />
+		<Unit filename="agentlist.cpp" />
+		<Unit filename="agentlist.h" />
+		<Unit filename="agentmenu.cpp" />
+		<Unit filename="agentmenu.h" />
+		<Unit filename="agentnode.cpp" />
+		<Unit filename="agentnode.h" />
+		<Unit filename="customer.cpp" />
+		<Unit filename="customer.h" />
+		<Unit filename="customerlist.cpp" />
+		<Unit filename="customerlist.h" />
+		<Unit filename="customermenu.cpp" />
+		<Unit filename="customermenu.h" />
+		<Unit filename="customernode.cpp" />
+		<Unit filename="customernode.h" />
+		<Unit filename="listexception.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="name.cpp" />
+		<Unit filename="name.h" />
+		<Unit filename="time.cpp" />
+		<Unit filename="time.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
